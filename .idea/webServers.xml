@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8e6264db-3253-4bea-b60c-2d6ad2e8fd87" name="paper-system" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="E:\php\httpd-2.4.39-win64-VS16\Apache24\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

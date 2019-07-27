@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="paper-system">
+    <serverData>
+      <paths name="paper-system">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/paper-system" local="$PROJECT_DIR$" web="/paper-system" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

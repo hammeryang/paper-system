@@ -13,13 +13,11 @@ class Login_check
 
     public function user_check()
     {
+        $a = $this->CI->uri->segment(1);
+        $a = $this->CI->uri->segment(2);
+        $a = $this->CI->uri->segment(3);
+        echo "<script>alert('调用钩子函数成功!;')</script>";
+        var_dump($a);
 
-        echo "dddd";die;
-        $this->CI->load->helper('url');
-        if (!preg_match("/login.*/i", uri_string())) {
-            if (!$this->CI->session->userdata('username')) {
-                redirect('login/index');
-            }
-        }
     }
 }
