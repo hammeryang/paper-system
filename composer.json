@@ -1,0 +1,11 @@
+{
+    "name": "boqian",
+    "description": "PhpSpreadsheet",
+    "type": "library",
+    "require-dev": {
+    },
+    "require": {
+	"phpoffice/phpspreadsheet": "^1.8",
+	"qcloudsms/qcloudsms_php": "0.1.*"
+	}
+}
