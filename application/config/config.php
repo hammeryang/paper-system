@@ -100,7 +100,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -392,13 +392,13 @@ $config['sess_regenerate_destroy'] = FALSE;
 /**
  * 使用redis作为缓存的配置
  */
-$config['sess_driver'] = 'redis';
-$config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 0;
-$config['sess_save_path'] = 'tcp://139.199.12.160:6379';
-$config['sess_match_ip'] = FALSE;
-$config['sess_time_to_update'] = 600;
-$config['sess_regenerate_destroy'] = TRUE;
+//$config['sess_driver'] = 'redis';
+//$config['sess_cookie_name'] = 'ci_session';
+//$config['sess_expiration'] = 0;
+//$config['sess_save_path'] = 'tcp://139.199.12.160:6379';
+//$config['sess_match_ip'] = FALSE;
+//$config['sess_time_to_update'] = 600;
+//$config['sess_regenerate_destroy'] = TRUE;
 
 
 /*

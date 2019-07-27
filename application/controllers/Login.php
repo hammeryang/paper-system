@@ -8,8 +8,8 @@ class Login extends MY_Controller{
     public function login_password(){
 
         $data = $this->json_input();
-        $name = $data['name'];
-        $this->cache->redis->save('user', $name, 60);
+        $name = "admin";//$data['name'];
+        $this->cache->redis->save('user', $name, 20);
 
         if(!$this->cache->redis->get("$name")){
             $this->json_output(array("登陆成功！"));

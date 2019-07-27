@@ -12,15 +12,12 @@ class Test extends MY_Controller
     public function test()
     {
 
-//        $data = $this->json_input();
-//        if (!$this->cache->redis->get("user")) {
-//            $this->json_output(array("未登录请从新登陆！"));
-//            return;
-//        }
-//        echo $data["name"];
-        $this->cache->redis->save('foo', 'bar', 10);
-        echo $this->cache->redis->get('foo');
-
+        $data = $this->json_input();
+        if (!$this->cache->redis->get("user")) {
+            $this->json_output(array("未登录请从新登陆！"));
+            return;
+        }
+        echo $data["name"]."已登录";
     }
 
     public function cookie_test()
